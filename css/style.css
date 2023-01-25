@@ -243,4 +243,8 @@ footer p a:hover {
         margin-top: 40px;
     }
 
+    .container {
+        max-width: 350px;
+        width: 100%;
+    }
 }
