@@ -27,7 +27,7 @@ body {
 
 .container {
     position: relative;
-    min-width: 400px;
+    min-width: 300px;
     border-radius: 10px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1),
         -15px -15px 30px #fff;
@@ -230,21 +230,24 @@ footer p a:hover {
         align-items: center;
     }
 
+    #dycalendar {
+        padding: 10px 5px;
+    }
+
     #dycalendar table td {
-        padding: 5px 7.5px;
+        padding: 5px 5px;
         font-weight: 500;
         border-radius: 6px;
-        font-size: .75em;
+        font-size: .5em;
     }
 
     #dycalendar table {
-        width: 100%;
         border-spacing: 5px;
-        margin-top: 40px;
     }
 
     .container {
-        max-width: 350px;
+        max-width: 150px;
         width: 100%;
+        height: 500px;
     }
 }
